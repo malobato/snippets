@@ -1,0 +1,33 @@
+= Java Design Pattern Examples
+:numbered:
+
+:source: ../java/com/coderszone/snippets
+
+== Builder pattern
+
+[source,java,linenums,options="nowrap"]
+----
+include::{source}/builder/Movie.java[]
+----
+
+== Decorator pattern
+
+[source,java,linenums,options="nowrap"]
+----
+include::{source}/decorator/Window.java[]
+----
+
+[source,java,linenums,options="nowrap"]
+----
+include::{source}/decorator/DialogWindow.java[]
+----
+
+[source,java,linenums,options="nowrap"]
+----
+include::{source}/decorator/WindowDecorator.java[]
+----
+
+[source,java,linenums,options="nowrap"]
+----
+include::{source}/decorator/WithMaximizeButton.java[]
+----
